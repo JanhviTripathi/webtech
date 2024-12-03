@@ -1,0 +1,370 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: venom;
+}
+.webpage{
+    width: 100%;
+    background-color: black;
+
+}
+@font-face {
+    font-family: venom;
+    src: url(./Poppins-Light.ttf);
+}
+nav{
+ height: 11vh;
+ width: 100%;
+ background-color: rgba(0, 0, 0, 0.384);
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ padding: 0px 70px;
+ position: sticky;
+ top: 0px;
+}
+nav .logo{
+    height: 90%;
+    width: 10%;
+    background-image: url(./Assest/LogoHover.bd77be5b.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+nav .navitems{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 30px;
+
+}
+nav .navitems li:hover{
+    color: green;
+}
+nav .contact li i:hover{
+   background-color: gray;
+   
+}
+nav .contact li i{
+    font-size: 27px;
+    padding: 28px 10px;
+    border-radius: 5px;
+    
+}
+nav .contact{
+    height: 90%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 30px;
+}
+div{
+    display: flex;
+    
+}
+.title{
+    color: #FFFFFF99;
+    font-size: 85px;
+    align-items: center;
+    font-family: venow;
+    padding-left: 100px;
+    width: 40vw;
+    padding-top: 100px;
+    
+}
+#b1{
+    height: 90px;
+    width: 300px;
+    background-color:#11A97D;
+    color: white;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 12px;
+    font-weight:800;
+  
+}
+#b2{
+    height: 90px;
+    width: 300px; 
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 12px; 
+    background-color:black;
+    color: white;
+    font-weight:800; 
+}
+
+.end{
+    color: #EEEEEE;
+    font-size: 85px;
+    font-family: venom;
+    
+}
+#b2:hover{
+    border-color: rgb(13, 136, 136);
+}
+#b1:hover{
+    background-color: aqua;
+}
+.maincard{
+    height: 200px;
+    padding-left: 50px;
+}
+.line2{
+    padding-left: 50px;
+}
+.card{
+    height: 150px;
+    width: 400px;
+    border: 2px solid black;
+    color: white;
+    padding-left: 40px;
+    font-size: 30px;
+    margin: 10px 20px;
+    background-color: rgb(36, 35, 35);
+    border-radius: 14px;
+    align-items: center;
+}
+#c2{
+    padding-left: 40px;
+    
+}
+#c2 i{
+    margin-right: 30px;
+}
+#c3{
+    padding-left: 40px;
+    
+}
+#c3 i{
+    margin-right: 30px;
+}
+#c1{
+    padding: 0 !important;
+}
+#c5 , #c6{
+    height: 200px;
+    width: 500px;
+    display: block !important;
+    padding-top: 50px;
+    padding-left: 90px;
+}
+#p1{
+    height: 50px;
+    width: 300px; 
+     
+}
+#new{
+    height: 50px;
+    width: 200px;
+    border: 1px solid ;
+    border-radius: 12px;
+    margin: 15px;
+    
+    background-color: blue;
+   padding-top: 5px;
+    padding-left: 12px;
+}
+#c4{
+    display: block !important;
+    padding-top: 30px;
+}
+.add{
+    height: 500px;
+    width:80vw;
+    border: 1px solid white;
+    margin-left: 160px;
+    border-radius: 12px;
+    background-color: rgba(91, 145, 196, 0.336);
+}
+a:link{
+  color: rgb(103, 184, 127);
+}
+a{
+    font-size: 35px;
+    padding-left: 60px;
+    padding-top: 40px;
+    text-decoration: none;
+}
+.title2{
+    color: white;
+    font-size: 80px;
+    padding-left: 400px;
+}
+.para{
+    color: white;
+    font-size: 30px;
+    width: 60vw;
+    text-align: center;
+    margin-left: 400px;
+}
+article{
+    display: flex;
+    margin-top: 150px;
+}
+article div{
+    height: 400px;
+    width: 800px;
+    border: 1px solid white;
+    margin-right: 45px;
+    margin-left: 90px;
+    border-radius: 12px;
+}
+article div button{
+    height: 100px;
+     width: 200px; 
+     margin-left: 50px;
+     font-size:30px;
+     margin-top: 40px;
+     background-color: #3d834b;
+      color: white;
+      font-weight: 600;
+    border-radius: 12px;
+}
+article .logo2{
+    height: 20%;
+    width: 40%;
+    background-image: url(./Assest/LogoHover.bd77be5b.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+   
+}
+.footericon li i{
+    font-size: 27px;
+    padding: 28px 10px;
+    border-radius: 5px;
+    margin-top: 45px;
+    
+}
+.footericon{
+    height: 10px;
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+   justify-content:space-around;
+   width: 50%;
+}
+
+.footericon i{
+    color: #ffffff;
+    background-color: rgba(128, 128, 128, 0.418);
+}
+
+ #fl1 li{
+    color: #EEEEEE;
+    list-style-type: none;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+
+ }
+ #fl2 li{
+    color: #EEEEEE;
+    list-style-type: none;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+ }
+ #fl3 li{
+    color: #EEEEEE;
+    list-style-type: none;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+ }
+.maincontainer{
+    height: 800px;
+    width: 90vw;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+.container{
+    height: 350px;
+    width: 500px;
+    border: 1px solid white ;
+    color: white;
+    font-size: 30px;
+    display: block;
+   align-items: center;
+   padding-left:40px; 
+   padding-top: 35px;
+   border-radius: 12px;
+   background-color: rgba(56, 55, 55, 0.212);
+}
+.opportunities{
+    height: 250px;
+    width: 80vw;
+    display: flex;
+    background-color: rgba(56, 55, 55, 0.212); 
+    border-radius: 12px;
+    margin-left: 150px;
+}
+.TVM{
+    height: 600px;
+    width: 80vw;
+    display: flex;
+    background-color: rgba(56, 55, 55, 0.212); 
+    border-radius: 12px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.TVM div ul li{
+    margin-bottom: 35px;
+}
+.TVM div ul li:first-child{
+    background-color: rgba(128, 128, 128, 0.418);
+   width: 100%;
+}
+.Cases{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.Cases1{
+    height: 90px;
+    width: 150px;
+    background-color:#11A97D;
+    color: white;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 45px;
+    font-weight:800;
+    
+  
+}
+.Cases2{
+    height: 90px;
+    width: 150px; 
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 45px; 
+    background-color:black;
+    color: white;
+    font-weight:800; 
+    margin-left: 30px;
+}
+.Cases2:hover{
+    border-color: rgb(13, 136, 136);
+}
+.Cases1:hover{
+    background-color: aqua;
+}
+input{
+    margin-top: 50px;
+    margin-left: 550px;
+    height: 80px;
+    width: 700px;
+    border-radius: 13px;
+    background-color: rgba(148, 135, 135, 0.226);
+    border: none;
+}
+
