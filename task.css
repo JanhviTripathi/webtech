@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section{
+    height: 500px;
+    width: 600px;
+    border: 1px solid;
+    margin: 0px auto;
+    display: grid;
+    grid-template-areas: "H H H H H H"
+                          "S1 M M M S S2"
+                          "S1 M M M S S2"
+                          "S1 T T T2 T2 S2"
+                          "F F F F F F";
+}
+div{
+   border: 1px solid;
+   color: white;
+   align-content: center;
+   padding-left: 30px;
+}
+.header{
+    grid-area: H;
+    background-color: blue;
+}
+.side1{
+    grid-area: S1;
+}
+.main-content{
+    grid-area: M;
+    background-color: greenyellow;
+   
+}
+.sidebar{
+    grid-area: S;
+    background-color: palevioletred;
+}
+.side2{
+    grid-area: S2;
+   
+}
+.twin{
+    grid-area: T;
+    background-color: orange;
+}
+.twin2{
+    grid-area: T2;
+    background-color: orange;
+}
+.footer{
+    grid-area: F;
+    background-color: blue;
+}
